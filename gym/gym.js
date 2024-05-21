@@ -1,5 +1,5 @@
 /**
- * Sunday 12 may, 2024.
+ * May, 2024.
  */
 // Embedded "Database".
 let DISKS = [
@@ -78,7 +78,7 @@ function sumWeights(barbell) {
     let totalWeight;
     let barbellWeight;
     if(barbell) {
-		barbellWeight = search(BARBELLS, Number(barbell)).weight;
+        	barbellWeight = search(BARBELLS, Number(barbell)).weight;
         totalWeight = barbellWeight;
     } else {
         totalWeight = 0.0;
@@ -99,8 +99,7 @@ function sumWeights(barbell) {
         }
     }
     // console.log('TW: ' + totalWeight);
-    document.getElementById('totalWeight').innerHTML =
-        '<p>Total Weight of selected equipment is: ' + totalWeight.toFixed(1) + ' k.<br/>La barra seleccionada pesa ' + barbellWeight + ' k.</p>';
+    document.getElementById('totalWeight').innerHTML = totalWeight.toFixed(1) + ' k.';
 }
 
 function search(array, valuetofind) {

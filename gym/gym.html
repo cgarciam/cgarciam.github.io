@@ -16,37 +16,35 @@
         Main | Photos | Contact
     </nav>
     <main class="row">
-      <div class="column">
-        Disks<br/>
-        <input type="checkbox" id="disk0" name="disks" value="44"  onchange="handleChangeDisks();" />20 k<br/>
-        <input type="checkbox" id="disk1" name="disks" value="45"  onchange="handleChangeDisks();" />15 k<br/>
-        <input type="checkbox" id="disk2" name="disks" value="13"  onchange="handleChangeDisks();" />10 k<br/>
-        <input type="checkbox" id="disk3" name="disks" value="46"  onchange="handleChangeDisks();" />10 k<br/>
-        <input type="checkbox" id="disk4" name="disks" value="47"  onchange="handleChangeDisks();" />5 k<br/>
-        <input type="checkbox" id="disk5" name="disks" value="48"  onchange="handleChangeDisks();" />2.5 k<br/>
-        <input type="checkbox" id="disk6" name="disks" value="49"  onchange="handleChangeDisks();" />1.25 k<br/>
-        <input type="checkbox" id="disk7" name="disks" value="12"  onchange="handleChangeDisks();" />15 L<br/>
-        <input type="checkbox" id="disk8" name="disks" value="11"  onchange="handleChangeDisks();" />10 L<br/>
-        <input type="checkbox" id="disk9" name="disks" value="14"  onchange="handleChangeDisks();" />1 L<br/>
-        <input type="checkbox" id="disk10" name="disks" value="15"  onchange="handleChangeDisks();" />0.75 L<br/>
-        <input type="checkbox" id="disk11" name="disks" value="16"  onchange="handleChangeDisks();" />0.5 L<br/>
-        <input type="checkbox" id="disk12" name="disks" value="17"  onchange="handleChangeDisks();" />0.25 L<br/>
-      </div>
-      <div class="column">
-        Barbells<br/>
-        <img alt="hexagonal" src="images/hexagonal.png" height="40" width="40" />
-        <input type="radio" id="barbell0" name="barbell" value="24" onchange="handleChangeBarbell();" />23 k<br/>
-        <img alt="olympic" src="images/olympic.png" height="22" width="40" />
-        <input type="radio" id="barbell1" name="barbell" value="21" onchange="handleChangeBarbell();" />20 k<br/>
-        <img alt="medium" src="images/BarraSemiOlímpicaMediana.png" height="40" width="40" />
-        <input type="radio" id="barbell2" name="barbell" value="58" onchange="handleChangeBarbell();" />13.5 k<br/>
-        <img alt="small" src="images/BarraSemiOlímpicaChica.png" height="40" width="40" />
-        <input type="radio" id="barbell3" name="barbell" value="25" onchange="handleChangeBarbell();" />6.2 k<br/>
-        <img alt="z-barbell" src="images/z-barbell.png" height="40" width="40" />
-        <input type="radio" id="barbell4" name="barbell" value="26" onchange="handleChangeBarbell();" />5.7 k<br/>
-      </div>
+        <div class="column">Disks<br/>
+            <input type="checkbox" id="disk0" name="disks" value="44"  onchange="handleChangeDisks();" />20 k<br/>
+            <input type="checkbox" id="disk1" name="disks" value="45"  onchange="handleChangeDisks();" />15 k<br/>
+            <input type="checkbox" id="disk2" name="disks" value="13"  onchange="handleChangeDisks();" />10 k<br/>
+            <input type="checkbox" id="disk3" name="disks" value="46"  onchange="handleChangeDisks();" />10 k<br/>
+            <input type="checkbox" id="disk4" name="disks" value="47"  onchange="handleChangeDisks();" />5 k<br/>
+            <input type="checkbox" id="disk5" name="disks" value="48"  onchange="handleChangeDisks();" />2.5 k<br/>
+            <input type="checkbox" id="disk6" name="disks" value="49"  onchange="handleChangeDisks();" />1.25 k<br/>
+            <input type="checkbox" id="disk7" name="disks" value="12"  onchange="handleChangeDisks();" />15 L<br/>
+            <input type="checkbox" id="disk8" name="disks" value="11"  onchange="handleChangeDisks();" />10 L<br/>
+            <input type="checkbox" id="disk9" name="disks" value="14"  onchange="handleChangeDisks();" />1 L<br/>
+            <input type="checkbox" id="disk10" name="disks" value="15"  onchange="handleChangeDisks();" />0.75 L<br/>
+            <input type="checkbox" id="disk11" name="disks" value="16"  onchange="handleChangeDisks();" />0.5 L<br/>
+            <input type="checkbox" id="disk12" name="disks" value="17"  onchange="handleChangeDisks();" />0.25 L<br/>
+        </div>
+        <div class="column">Barbells<br/>
+            <img alt="hexagonal" src="images/hexagonal.png" height="40" width="40" />
+            <input type="radio" id="barbell0" name="barbell" value="24" onchange="handleChangeBarbell();" />23 k<br/>
+            <img alt="olympic" src="images/olympic.png" height="22" width="40" />
+            <input type="radio" id="barbell1" name="barbell" value="21" onchange="handleChangeBarbell();" />20 k<br/>
+            <img alt="medium" src="images/BarraSemiOlímpicaMediana.png" height="40" width="40" />
+            <input type="radio" id="barbell2" name="barbell" value="58" onchange="handleChangeBarbell();" />13.5 k<br/>
+            <img alt="small" src="images/BarraSemiOlímpicaChica.png" height="40" width="40" />
+            <input type="radio" id="barbell3" name="barbell" value="25" onchange="handleChangeBarbell();" />6.2 k<br/>
+            <img alt="z-barbell" src="images/z-barbell.png" height="40" width="40" />
+            <input type="radio" id="barbell4" name="barbell" value="26" onchange="handleChangeBarbell();" />5.7 k<br/>
+        </div>
     </main>
-    <div id= "totalWeight"></div>
+    Total Weight of selected equipment is: <div id= "totalWeight">0 k.</div>
     <script type="text/javascript" src="gym.js"></script>
 </body>
 </html>
