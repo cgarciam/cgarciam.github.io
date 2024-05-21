@@ -12,3 +12,7 @@
   display: table;
   clear: both;
 }
+body {
+  font-size: 25px;
+  font-family: "Arial";
+}
