@@ -18,6 +18,7 @@ let DISKS = [
     { "id": 59, "weight": 2.5, "unit": "k" },
     { "id": 49, "weight": 1.25, "unit": "k" },
     { "id": 60, "weight": 1.25, "unit": "k" },
+    { "id": 61, "weight": 5, "unit": "k" },
 ];
 let BARBELLS = [
     {
