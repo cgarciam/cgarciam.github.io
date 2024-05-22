@@ -50,6 +50,11 @@ let BARBELLS = [
         "id": 62,
         "weight": 12.1,
         "unit": "k"
+    },
+    {
+        "id": 63,
+        "weight": 3.6,
+        "unit": "k"
     }
 ];
 let currentBarbell;
