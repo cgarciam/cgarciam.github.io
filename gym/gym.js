@@ -7,9 +7,13 @@ let DISKS = [
     { "id": 12, "weight": 15, "unit": "L" },
     { "id": 13, "weight": 10, "unit": "k" },
     { "id": 14, "weight": 1, "unit": "L" },
+    { "id": 64, "weight": 1, "unit": "L" },
     { "id": 15, "weight": 0.75, "unit": "L" },
+    { "id": 65, "weight": 0.75, "unit": "L" },
     { "id": 16, "weight": 0.5, "unit": "L" },
+    { "id": 66, "weight": 0.5, "unit": "L" },
     { "id": 17, "weight": 0.25, "unit": "L" },
+    { "id": 67, "weight": 0.25, "unit": "L" },
     { "id": 44, "weight": 20, "unit": "k" },
     { "id": 45, "weight": 15, "unit": "k" },
     { "id": 46, "weight": 10, "unit": "k" },
@@ -53,7 +57,7 @@ let BARBELLS = [
     },
     {
         "id": 63,
-        "weight": 3.6,
+        "weight": 3.3,
         "unit": "k"
     }
 ];
